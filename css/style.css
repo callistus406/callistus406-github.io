@@ -298,5 +298,30 @@ header .wrapper .show {
     min-width: 10em;
     height: 55px;
   }
+  .navLinks {
+    font-size: 0.6em;
+  }
+  .navLinks ul li {
+    list-style-type: none;
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: .5%;
+    padding-right: .5%;
+  }
+  .navLinks ul li a {
+    color: #004682;
+    font-weight: 300;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .navLinks ul li a:hover {
+    color: #8897a5;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -186,8 +186,8 @@ header {
             position: absolute;
             z-index: -1;
             height: 85vh;
-// background-size: ;
-background-position: center;
+            // background-size: ;
+            background-position: center;
         }
 
         .menu {
@@ -336,6 +336,34 @@ background-position: center;
         }
     }
 
+    .navLinks {
+        font-size: 0.6em;
+
+        ul {
+            li {
+                list-style-type: none;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                padding-left: .5%;
+                padding-right: .5%;
+
+
+
+                a {
+                    color: #004682;
+                    // font-size: 12px;
+                    font-weight: 300;
+                    text-decoration: none;
+                    transition: 0.5s;
+
+                    &:hover {
+                        color: #8897a5;
+                    }
+                }
+            }
+        }
+    }
 
     // display: block;
 
